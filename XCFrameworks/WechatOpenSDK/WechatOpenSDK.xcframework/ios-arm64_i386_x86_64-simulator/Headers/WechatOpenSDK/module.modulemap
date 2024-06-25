@@ -1,0 +1,13 @@
+framework module WechatOpenSDK {
+	
+	umbrella "./"
+	
+	export *
+	module * {
+		export *
+	}
+
+	link framework "Security"
+	link framework "CoreGraphics"
+	link framework "WebKit"
+}
