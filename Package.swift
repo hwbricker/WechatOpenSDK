@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "WechatOpenSDK",
-    defaultLocalization: "en",
+    defaultLocalization: "zh_CN",
     platforms: [.iOS(.v15)],
     products: [
         .library(name: "WechatOpenSDK", targets: ["WechatOpenSDK"]),
